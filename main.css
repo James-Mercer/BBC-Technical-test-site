@@ -1,0 +1,105 @@
+/*base styles ----------------------------- */
+body{
+    max-width: 75em;
+    min-width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    font-family: "Verdana";
+    padding: 0 1.5% 1.5% 1.5%;
+}
+header {
+    
+}
+footer {
+    border: 1pt solid gray;
+    border-top: 0pt;
+}
+
+/* Banner --------------------------------- */
+#banner{
+    height: 10%;
+    width: 99%;
+    display: inline-flex;
+    color: white;
+    padding: 0.5%;
+    background-color: gray;
+    flex-direction: row;
+}
+#banner h1{
+    width: 40%;
+    padding-left: 1%;
+}
+.article-controls{
+    display: inline-flex;
+    flex-direction: row;
+    align-self: center;
+    
+    margin-left: auto;
+    margin-right: 5%
+    
+}
+footer .article-controls{
+    width: 50%;
+    align-content: center;
+    margin: 25%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer .article-controls #next-article{
+    margin-left: 0;
+    margin-right: auto;
+}
+footer .article-controls #prev-article{
+    margin-left: auto;
+    margin-right: 0;
+}
+.article-controls img{
+    align-self: center;   
+}
+.article-controls p{
+    align-self: center;
+    
+    
+}
+/*Article styles -------------------------- */
+.article {
+   border: 1pt solid gray;
+}
+
+/* Form styling ----------------------------*/
+#rating{
+    border: 1pt solid gray;
+    padding: 1%;
+}
+#rating-form{
+    
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    display: inline-flex;
+    column-count: 2;
+    flex-direction: column;
+    
+}
+.rating-div{
+    display: inline-flex;
+    align-items: center;
+}
+#rating-form p{
+   width: 80%;
+}
+#rating-form select{
+    max-width: 3em;
+    max-height: 2em;
+    margin: auto;
+}
+#submit-button{
+    width: 25%;
+    margin: auto;
+}
+
+
+
+
